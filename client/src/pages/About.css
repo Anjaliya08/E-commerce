@@ -1,0 +1,78 @@
+/* About Page Styles */
+
+/* Banner Section */
+.about-banner {
+    background: linear-gradient(135deg, #007bff, #6610f2);
+    color: white;
+    padding: 50px 0;
+}
+
+.about-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-banner p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+/* Image Hover Effect */
+.about-page img {
+    border: 3px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-page img:hover {
+    transform: scale(1.05);
+}
+
+/* Mission Section */
+.bg-light {
+    background-color: #f8f9fa !important;
+    padding: 50px 20px;
+}
+
+.bg-light h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.bg-light p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Team Section */
+.text-center h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.text-center p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.text-center img {
+    border: 2px solid #007bff;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out, border-color 0.3s;
+}
+
+.text-center img:hover {
+    transform: scale(1.1);
+    border-color: #6610f2;
+}
+
+/* Spacing Adjustments */
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
